@@ -1,24 +1,8 @@
+# React + Vite
 
-# Sentiment Analysis
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project implements DistilBert fine tunnnig and a sentiment analysis API  for classifying text sentiment using custom models and Llama model.
+Currently, two official plugins are available:
 
-
-To run the project locally, follow these steps:
-1. technical_assignment_w3.ipynb: fine-tuning DistilBert-base-uncased model.
-2. app.py:  Create an API for sentiment analysis with fined tuned model and llama 3
-   usage: uvicorn app:app --reload 
-
-3. UI: 
- Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/sentiment-analysis.git
-   cd sentiment-analysis
- Install dependencies
-   npm install
-   npm install axios
-   npm run dev
-
-
-   
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
