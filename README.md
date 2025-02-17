@@ -1,8 +1,14 @@
-# React + Vite
+# fine tuning +Backend API+  React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a notbook to fine tune DistilBert model, create a backend API,and  a minimal setup to get React working in Vite.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. tchnical_assignment_w3.ipynb: fine tune DistilBert-base-uncased model
+2. appp.py: create a backend AI for sentiment analysis with fine-tuned model and llama 3
+   test_app.py: test with python request
+   usage: uvicorn app:app --reload
+4. To run locally:
+   git clone https://github.com/your-username/sentiment-analysis.git
+   cd sentiment-analysis
+   npm install
+   npm install axios
+   npm run dev
