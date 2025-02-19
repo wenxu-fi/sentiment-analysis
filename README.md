@@ -8,7 +8,11 @@ This template provides a notbook to fine tune DistilBert model, create a backend
    usage: uvicorn app:app --reload
 4. To run locally:
    git clone https://github.com/your-username/sentiment-analysis.git
+   
    cd sentiment-analysis
+   
    npm install
+   
    npm install axios
+   
    npm run dev
