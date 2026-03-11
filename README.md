@@ -7,7 +7,7 @@ This template provides a notbook to fine tune DistilBert model, create a backend
    test_app.py: test with python request
    usage: uvicorn app:app --reload
 4. To run locally:
-   git clone https://github.com/your-username/sentiment-analysis.git
+   git clone https://github.com/wenxu-fi/sentiment-analysis.git
    
    cd sentiment-analysis
    
