@@ -1,4 +1,4 @@
-# fine tuning +Backend API+  React + Vite
+# Fine tuning +Backend API+  React + Vite
 
 This template provides a notbook to fine tune DistilBert model, create a backend API,and  a minimal setup to get React working in Vite.
 
